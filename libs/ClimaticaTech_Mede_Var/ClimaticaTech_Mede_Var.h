@@ -11,7 +11,7 @@ private:
 
 public:
     ClimaticaTech_MedeVar(int pin_umidade, int pin_luminosidade, int pin_temperatura);
-    void medir(int* umidade, int* luminosidade, float* temperatura);
+    void medir(int* umidade, int* luminosidade, double* temperatura);
 
 private:
     int calculaUmidade();

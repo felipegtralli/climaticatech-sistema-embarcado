@@ -6,7 +6,7 @@ ClimaticaTech_Filtro::ClimaticaTech_Filtro(int janela) {
     soma_temperatura = 0.0;
 }
 
-void ClimaticaTech_Filtro::mediaMovel(int* umidade, int* luminosidade, float* temperatura, int itr) {
+void ClimaticaTech_Filtro::mediaMovel(int* umidade, int* luminosidade, double* temperatura, int itr) {
     soma_umidade += *umidade;
     soma_luminosidade += *luminosidade;
     soma_temperatura += *temperatura;

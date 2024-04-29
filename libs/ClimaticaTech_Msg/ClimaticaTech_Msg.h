@@ -3,7 +3,7 @@
 
 class ClimaticaTech_Msg {
 public:
-    static void mandaMensagem(int umidade, int luminosidade, float temperatura);
+    static void mandaMensagem(int umidade, int luminosidade, double temperatura);
 };
 
 #endif
