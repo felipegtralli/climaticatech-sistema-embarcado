@@ -20,7 +20,7 @@ void ClimaticaTech_Display::begin() {
     (*display).clearDisplay();
 }
 
-void ClimaticaTech_Display::print(int umidade, int luminosidade, float temperatura) {
+void ClimaticaTech_Display::print(int umidade, int luminosidade, double temperatura) {
     (*display).clearDisplay();
     (*display).setCursor(0, 0);
 

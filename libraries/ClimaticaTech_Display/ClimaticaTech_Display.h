@@ -10,7 +10,7 @@ private:
 public:
     ClimaticaTech_Display();
     void begin();
-    void print(int umidade, int luminosidade, float temperatura);
+    void print(int umidade, int luminosidade, double temperatura);
 };
 
 #endif

@@ -8,10 +8,10 @@ ClimaticaTech_MedeVar::ClimaticaTech_MedeVar(int pin_umidade, int pin_luminosida
     dht11 = new DHT11(pin_temperatura);
 }
 
-void ClimaticaTech_MedeVar::medir(int *umidade, int *luminosidade, float *temperatura) {
+void ClimaticaTech_MedeVar::medir(int* umidade, int* luminosidade, double* temperatura) {
     *umidade = calculaUmidade();
     *luminosidade = calculaLuminosidade();
-    *temperatura = (float)calculaTemperatura();
+    *temperatura = (double)calculaTemperatura();
 }
 
 int ClimaticaTech_MedeVar::calculaUmidade() {
